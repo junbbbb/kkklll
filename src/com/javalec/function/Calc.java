@@ -29,7 +29,11 @@ public class Calc {
 		
 	}//완성형
 	
-	public int sum() {	//나는 영혁이다.
+<<<<<<< HEAD
+	public int sum(1+2) {	//나는 영혁이다.
+=======
+	public int sum() {	
+>>>>>>> parent of b84dff0 (영혁이의 첫번째 수정)
 		 return num1+num2;
 	}
 	
