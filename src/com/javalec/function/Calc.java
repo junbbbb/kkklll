@@ -29,7 +29,7 @@ public class Calc {
 		
 	}//완성형
 	
-	public int sum() {	//나는 영혁이다.
+	public int sum(1+2) {	//나는 영혁이다.
 		 return num1+num2;
 	}
 	
