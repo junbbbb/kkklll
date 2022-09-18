@@ -2,7 +2,7 @@ package com.javalec.base;
 
 import java.util.Scanner;
 
-import com.javalec.funtion.Calc;
+import com.javalec.function.Calc;
 
 public class Main {
 
@@ -21,7 +21,7 @@ public class Main {
 		getNum2 = scanner.nextInt();
 		
 
-//		Calc calc = new Calc(getNum1, getNum2);
+		Calc calc = new Calc(getNum1, getNum2);
 
 		
 		//----------------빈생성자 또는 하나만받는생성자사용할때 테스트용.
