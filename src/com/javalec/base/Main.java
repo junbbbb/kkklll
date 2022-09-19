@@ -13,6 +13,7 @@ public class Main {
 		//고석진 첫번째수정
 		int getNum1 =0;
 		int getNum2 =0;
+		//고석진 수정2
 		
 		System.out.println("첫번쨰 숫자를 입력하세요 :");
 		getNum1 = scanner.nextInt();
