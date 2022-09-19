@@ -15,6 +15,7 @@ public class Calc {
 //		this.num1 = num1;
 //		// TODO Auto-generated constructor stub
 //	}//넌 일단 숫자하나만알아도 사용가능해 ㅇ
+	// 왜 반말하세요?
 
 	public Calc(int num1, int num2) {
 		super();
