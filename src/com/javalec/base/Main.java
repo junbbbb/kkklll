@@ -25,7 +25,7 @@ public class Main {
 		System.out.println("두번째 숫자를 입력하세요 : ");
 		num2 = scanner.nextInt();
 		
-		Calc calc = new Calc();
+		Calc calc = new Calc(getNum, num1, num2);
 		
 		
 		
