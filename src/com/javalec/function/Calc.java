@@ -53,6 +53,13 @@ public class Calc {
 			System.out.println("나눗셈 나머지는 " + (num1%num2)+ "입니다.");
 		}
 	}
+	public void	division() {
+		if(getNum == 6) {
+			System.out.println("나눗셈 결과는 " + ((double)num1/num2)+ "입니다.");
+		}
+	}
+	
+	
 	
 	
 	
