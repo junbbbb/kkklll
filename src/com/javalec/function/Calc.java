@@ -47,7 +47,7 @@ public class Calc {
 		}
 	}
 	
-	
+	//석진테스트완료
 	
 	
 	
