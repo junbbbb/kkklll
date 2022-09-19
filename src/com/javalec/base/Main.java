@@ -14,6 +14,7 @@ public class Main {
 		int getNum1 =0;
 		int getNum2 =0;
 		//고석진 수정2
+		//임은빈 확인완
 		
 		System.out.println("첫번쨰 숫자를 입력하세요 :");
 		getNum1 = scanner.nextInt();
