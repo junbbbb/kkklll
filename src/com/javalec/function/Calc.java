@@ -46,12 +46,12 @@ public class Calc {
 	}
 	public void quota() {
 		if(getNum == 4) {
-			System.out.println("나눗셈 몫은 " + (num1/num2)+ "입니다.");
+			System.out.println("나눗셈 몫은 " + ((num1*1000)/(num2*1000))+ "입니다.");
 		}
 	}
 	public void rest() {
 		if(getNum == 5) {
-			System.out.println("나눗셈 나머지는 " + (num1%num2)+ "입니다.");
+			System.out.println("나눗셈 나머지는 " + ((num1*1000)%(num2*1000))+ "입니다.");
 		}
 	}
 	public void	division() {
