@@ -22,6 +22,7 @@ public class Calc {
 		multiplication();
 		quota();
 		rest();
+		division();
 	}
 
 
@@ -34,7 +35,7 @@ public class Calc {
 	
 	public void subtraction() {
 		if(getNum == 2) {
-			System.out.println("뺄셈 결과는 " + (num1+num2)+ "입니다.");
+			System.out.println("뺄셈 결과는 " + (num1-num2)+ "입니다.");
 		}
 	}
 	
