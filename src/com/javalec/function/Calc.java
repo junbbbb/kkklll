@@ -29,7 +29,7 @@ public class Calc {
 
 	public void addition() {
 		if(getNum == 1) {
-			System.out.println("덧셈 결과는 " + (num1+num2)+ "입니다.");
+			System.out.println("덧셈 결과는 " + ((num1*1000)+(num2*1000))+ "입니다.");
 		}
 	}
 	
