@@ -27,7 +27,7 @@ public class Main {
 		
 		Calc calc = new Calc(getNum, num1, num2);
 		
-		
+	
 		
 		
 		
