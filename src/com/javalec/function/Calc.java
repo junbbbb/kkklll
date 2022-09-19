@@ -10,10 +10,20 @@ public class Calc {
 	}
 	
 	public void addition() {
-        if(getNum==1) {
+        {
         	System.out.println("덧셈 결과는 " + (num1+num2)+ "입니다.");
         	}
-			}
+		}
+	
+	public void multiplication() {
+		{
+			System.out.println("곱셈 결과는 " + (num1*num2)+ "입니다.");
+		}
+	}
+	
+	
+	
+	
 	
 	
 }
