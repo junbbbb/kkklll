@@ -18,6 +18,7 @@ public class Calc {
 		this.num2 = num2;
 		
 		addition();
+		subtraction();
 		multiplication();
 		quota();
 		rest();
@@ -27,7 +28,13 @@ public class Calc {
 
 	public void addition() {
 		if(getNum == 1) {
-        	System.out.println("덧셈 결과는 " + (num1+num2)+ "입니다.");
+			System.out.println("덧셈 결과는 " + (num1+num2)+ "입니다.");
+		}
+	}
+	
+	public void subtraction() {
+		if(getNum == 2) {
+			System.out.println("뺄셈 결과는 " + (num1+num2)+ "입니다.");
 		}
 	}
 	
