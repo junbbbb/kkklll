@@ -10,7 +10,7 @@ public class Main {
 		// TODO Auto-generated method stub
 		Scanner scanner = new Scanner(System.in);
 		
-		
+		//고석진 첫번째수정
 		int getNum1 =0;
 		int getNum2 =0;
 		
