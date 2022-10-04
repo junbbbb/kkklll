@@ -58,8 +58,6 @@ public class MyPage extends JDialog {
 	}
 
 	public MyPage() {
-		setTitle("My Page");
-
 		// -------------------- 마이페이지 출력 시, 고객 정보 출력 --------------------
 		addWindowListener(new WindowAdapter() {
 			@Override
