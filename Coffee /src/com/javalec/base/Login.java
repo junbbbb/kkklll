@@ -27,7 +27,6 @@ public class Login {
 	private JFrame frmLogin;
 	private JLabel lblBackground;
 	private JLabel lblTitleimage;
-	private JLabel lblTitle;
 	private JTextField tfId;
 	private JLabel lblNewLabel;
 	private JLabel lblPw;
@@ -39,6 +38,8 @@ public class Login {
 	private JLabel lblFindid;
 	private JLabel lblFindpw;
 	public static String id;
+	private JLabel lblNewLabel_1;
+	private JLabel lblNewLabel_1_1;
 
 	/**
 	 * Launch the application.
@@ -78,7 +79,6 @@ public class Login {
 		frmLogin.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frmLogin.getContentPane().setLayout(null);
 		frmLogin.getContentPane().add(getLblTitleimage());
-		frmLogin.getContentPane().add(getLblTitle());
 		frmLogin.getContentPane().add(getTfId());
 		frmLogin.getContentPane().add(getLblNewLabel());
 		frmLogin.getContentPane().add(getLblPw());
@@ -89,6 +89,8 @@ public class Login {
 		frmLogin.getContentPane().add(getLblLock());
 		frmLogin.getContentPane().add(getLblFindid());
 		frmLogin.getContentPane().add(getLblFindpw());
+		frmLogin.getContentPane().add(getLblNewLabel_1());
+		frmLogin.getContentPane().add(getLblNewLabel_1_1());
 		frmLogin.getContentPane().add(getLblBackground());
 	}
 	private JLabel getLblBackground() {
@@ -102,25 +104,16 @@ public class Login {
 	private JLabel getLblTitleimage() {
 		if (lblTitleimage == null) {
 			lblTitleimage = new JLabel("");
-			lblTitleimage.setIcon(new ImageIcon("/Users/Bhan/Documents/JAVA/Coffee/src/com/javalec/image/dochilogin.png"));
-			lblTitleimage.setBounds(54, 55, 260, 261);
+			lblTitleimage.setIcon(new ImageIcon("/Users/Bhan/Documents/JAVA/Coffee/src/com/javalec/image/dochicoffe.png"));
+			lblTitleimage.setBounds(67, 130, 243, 212);
 		}
 		return lblTitleimage;
-	}
-	private JLabel getLblTitle() {
-		if (lblTitle == null) {
-			lblTitle = new JLabel("DoChi Coffee");
-			lblTitle.setFont(new Font("Lucida Grande", Font.BOLD | Font.ITALIC, 25));
-			lblTitle.setHorizontalAlignment(SwingConstants.CENTER);
-			lblTitle.setBounds(0, 375, 375, 69);
-		}
-		return lblTitle;
 	}
 	private JTextField getTfId() {
 		if (tfId == null) {
 			tfId = new JTextField();
 			tfId.setBackground(Color.decode("#ECE0D1"));
-			tfId.setBounds(114, 456, 171, 32);
+			tfId.setBounds(112, 427, 171, 32);
 			tfId.setColumns(10);
 		}
 		return tfId;
@@ -130,7 +123,7 @@ public class Login {
 			lblNewLabel = new JLabel("ID");
 			lblNewLabel.setFont(new Font("Lucida Grande", Font.BOLD | Font.ITALIC, 13));
 			lblNewLabel.setHorizontalAlignment(SwingConstants.CENTER);
-			lblNewLabel.setBounds(81, 456, 36, 32);
+			lblNewLabel.setBounds(79, 427, 36, 32);
 		}
 		return lblNewLabel;
 	}
@@ -139,7 +132,7 @@ public class Login {
 			lblPw = new JLabel("PW");
 			lblPw.setFont(new Font("Lucida Grande", Font.BOLD | Font.ITALIC, 13));
 			lblPw.setHorizontalAlignment(SwingConstants.CENTER);
-			lblPw.setBounds(81, 500, 36, 32);
+			lblPw.setBounds(79, 471, 36, 32);
 		}
 		return lblPw;
 	}
@@ -162,7 +155,7 @@ public class Login {
 				}
 			});
 			btnLogin.setIcon(new ImageIcon("/Users/Bhan/Documents/JAVA/Coffee/src/com/javalec/image/LoginBtn.png"));
-			btnLogin.setBounds(205, 544, 80, 40);
+			btnLogin.setBounds(203, 515, 80, 40);
 		}
 		return btnLogin;
 	}
@@ -188,7 +181,7 @@ public class Login {
 				}
 			});
 			btnSignup.setIcon(new ImageIcon("/Users/Bhan/Documents/JAVA/Coffee/src/com/javalec/image/SignupBtn.png"));
-			btnSignup.setBounds(205, 596, 80, 40);
+			btnSignup.setBounds(203, 567, 80, 40);
 		}
 		return btnSignup;
 	}
@@ -196,7 +189,7 @@ public class Login {
 		if (pfPassword == null) {
 			pfPassword = new JPasswordField();
 			pfPassword.setBackground(Color.decode("#ECE0D1"));
-			pfPassword.setBounds(114, 500, 171, 32);
+			pfPassword.setBounds(112, 471, 171, 32);
 		}
 		return pfPassword;
 	}
@@ -213,7 +206,7 @@ public class Login {
 				}
 			});
 			cbPwsign.setFont(new Font("Lucida Grande", Font.PLAIN, 10));
-			cbPwsign.setBounds(114, 530, 65, 23);
+			cbPwsign.setBounds(112, 501, 65, 23);
 		}
 		return cbPwsign;
 	}
@@ -221,7 +214,7 @@ public class Login {
 		if (lblLock == null) {
 			lblLock = new JLabel("");
 			lblLock.setIcon(new ImageIcon("/Users/Bhan/Documents/JAVA/Coffee/src/com/javalec/image/Locked.png"));
-			lblLock.setBounds(88, 673, 19, 25);
+			lblLock.setBounds(86, 644, 19, 25);
 		}
 		return lblLock;
 	}
@@ -236,7 +229,7 @@ public class Login {
 				}
 			});
 			lblFindid.setIcon(new ImageIcon("/Users/Bhan/Documents/JAVA/Coffee/src/com/javalec/image/Findid.png"));
-			lblFindid.setBounds(115, 678, 80, 20);
+			lblFindid.setBounds(113, 649, 80, 20);
 		}
 		return lblFindid;
 	}
@@ -251,7 +244,7 @@ public class Login {
 				}
 			});
 			lblFindpw.setIcon(new ImageIcon("/Users/Bhan/Documents/JAVA/Coffee/src/com/javalec/image/Findpw.png"));
-			lblFindpw.setBounds(205, 678, 80, 20);
+			lblFindpw.setBounds(203, 649, 80, 20);
 		}
 		return lblFindpw;
 	}
@@ -292,4 +285,20 @@ public class Login {
 	  
 	  
 	  
+	private JLabel getLblNewLabel_1() {
+		if (lblNewLabel_1 == null) {
+			lblNewLabel_1 = new JLabel("");
+			lblNewLabel_1.setIcon(new ImageIcon("/Users/Bhan/Documents/JAVA/Coffee/src/com/javalec/image/dochitabbar.png"));
+			lblNewLabel_1.setBounds(0, 710, 375, 57);
+		}
+		return lblNewLabel_1;
+	}
+	private JLabel getLblNewLabel_1_1() {
+		if (lblNewLabel_1_1 == null) {
+			lblNewLabel_1_1 = new JLabel("");
+			lblNewLabel_1_1.setIcon(new ImageIcon("/Users/Bhan/Documents/JAVA/Coffee/src/com/javalec/image/dochitabbar.png"));
+			lblNewLabel_1_1.setBounds(0, 0, 375, 57);
+		}
+		return lblNewLabel_1_1;
+	}
 }// End

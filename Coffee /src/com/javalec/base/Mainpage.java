@@ -99,6 +99,10 @@ public class Mainpage {
 				public void mousePressed(MouseEvent e) {
 					lblHomebtn.setIcon(new ImageIcon("/Users/Bhan/Documents/JAVA/Coffee/src/com/javalec/image/pressHome.png"));
 				}
+				@Override
+				public void mouseReleased(MouseEvent e) {
+					lblHomebtn.setIcon(new ImageIcon("/Users/Bhan/Documents/JAVA/Coffee/src/com/javalec/image/Homebtn.png"));
+				}
 			});
 			lblHomebtn.setIcon(new ImageIcon("/Users/Bhan/Documents/JAVA/Coffee/src/com/javalec/image/Homebtn.png"));
 			lblHomebtn.setBounds(40, 736, 24, 24);
